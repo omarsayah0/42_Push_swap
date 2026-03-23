@@ -1,0 +1,62 @@
+*This project has been created as part of the 42 curriculum by omaraletham.*
+
+---
+
+# push_swap
+
+## Description
+
+Push_swap is an algorithmic project that focuses on sorting integers using a limited set of operations and two stacks (a and b). The objective is to generate the shortest possible sequence of instructions to sort the given data in ascending order.
+
+The project emphasizes algorithm efficiency, complexity, and optimization. Different strategies such as small sort handling and radix sort are used depending on the input size.
+
+---
+
+## Instructions
+
+### Compilation
+
+```
+make
+```
+
+### Usage
+
+```
+./push_swap <list_of_integers>
+```
+
+Example:
+
+```
+./push_swap 2 1 3 6 5 8
+```
+
+---
+
+## Operations
+
+- sa, sb, ss — swap
+- pa, pb — push
+- ra, rb, rr — rotate
+- rra, rrb, rrr — reverse rotate
+
+---
+
+## Performance
+
+- 100 numbers → < 700 operations
+- 500 numbers → < 5500 operations
+
+---
+
+## Resources
+
+- Stack data structures ([Link](https://www.geeksforgeeks.org/stack-data-structure/))
+- Sorting algorithms (Radix Sort) ([Link](https://www.geeksforgeeks.org/dsa/radix-sort/))
+
+---
+
+## AI Usage
+
+AI was used to assist with project structuring and documentation. All content was reviewed and understood before use.
